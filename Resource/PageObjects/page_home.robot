@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Variables    ..\Resource\TestData\GlobalTestData.py
+Variables    ..\\Resource\\TestData\\GlobalTestData.py
 Variables    page_home.py
 
 *** Variables ***

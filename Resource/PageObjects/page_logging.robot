@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation   Page Object for Logging Page
 Library    SeleniumLibrary
-Variables    ..\Resource\TestData\GlobalTestData.py
+Variables    ..\\Resource\\TestData\\GlobalTestData.py
 Variables    page_logging.py
 *** Variables ***
 ${usr_valid_username}=    ${db_valid_username}

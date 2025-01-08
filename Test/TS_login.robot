@@ -1,6 +1,9 @@
 *** Settings ***
 Resource        ../Resource/resources.robot
+
+*** Keywords ***
 Test Teardown    Close All Browsers
+
 *** Test Cases ***
 TC_001: Verify login successfully with valid account
     [Documentation]    Login with valid account
@@ -19,4 +22,4 @@ TC_001: Verify login successfully with valid account
     Click to login button
     Verify profile logo is displayed
     Capture Page Screenshot
-   [Teardown]
+    [Teardown]    Test Teardown
