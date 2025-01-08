@@ -65,4 +65,4 @@
 
 For detailed documentation on how to use **Robot Framework** or **SeleniumLibrary**, refer to their official documentation:
 - [Robot Framework Documentation](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#user-keyword-tags)
-- [SeleniumLibrary Documentation](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html/)
+- [SeleniumLibrary Documentation](https://robotframework.org/SeleniumLibrary/)
