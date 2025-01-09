@@ -16,7 +16,7 @@ TC_001: Verify login successfully with valid account
     ...    2. Input username
     ...    3. Input password
     ...    4. Click to login button
-    [Tags]    smoke
+    [Tags]    Acceptance Testing
     Open new browser and navigate to website
     Login with valid account
     Click to login button
