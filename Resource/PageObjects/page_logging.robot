@@ -11,7 +11,6 @@ ${usr_valid_password}=    ${db_valid_password}
 # Initialize
 Open new browser and navigate to website
     Open Browser    ${db_url}    ${db_browser}
-    Set Browser Implicit Wait    ${db_time_wait}
     Maximize Browser Window
 
 Open new tab and navigate to website
@@ -26,3 +25,6 @@ Login with valid account
 
 Click to login button
     Click Button    ${btn_login}
+
+Click on "Sign in with Google" button
+    Click Element    ${btn_google_login}

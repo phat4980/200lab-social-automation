@@ -1,7 +1,6 @@
 # Database info
 # Time config
-db_time_wait = 100
-db_time_expire = 240
+db_time_wait = 10
 
 # Browser config
 db_url = "https://bento.showcase.200lab.io/login"
